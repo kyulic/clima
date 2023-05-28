@@ -50,6 +50,8 @@
 .weather_inf-title{
     text-align: center;
     font-size: 1.3em;
+    width: 10em;
+    
     
 }
 .weather_list{
