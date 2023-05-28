@@ -8,7 +8,7 @@ import Loading from './components/Loading'
 import './components/styles/weatherCard.css'
 import randomElementFromArray from './utils/randomElementFromArray'
 
-const arrBackground=[1,2,3]
+const arrBackground=[1,2,3,4,5]
 function App() {
 
   const [coords, setCoords] = useState()

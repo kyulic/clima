@@ -26,16 +26,25 @@
 .weather_section{
     
     display: flex;
+    text-align: center;
+    align-items: center;
+    width: 20em;
+    margin-left: 2em;
     }
 
     .weather_img{
-        margin-left: 7em;
+        width: 10em;
+        background-color: rgba(146, 150, 151, 0.3);
+        border-radius: 1em;
+        
+
     }
 
 .weather_paramether{
     /* espacio de las lineas  */
     line-height: 1.5em;
     font-size: 1rem;
+    
     
 }
 .weather_inf-title{
@@ -52,6 +61,7 @@
     
     
     
+    
 
 }
 span{
@@ -59,7 +69,7 @@ span{
     color: var(--principal)
 }  
 .weather_c_f{
-    font-size: 0.8em;
+    font-size: 1.2em;
     font-weight: 600;
     margin: 1em 1em;
 }
@@ -70,7 +80,7 @@ span{
 
 .btn{
     padding: 0.5rem 1rem;
-    margin-top: 1.5rem;
+    /* margin-top: 1rem; */
     border-radius: 0.5em;
     
     cursor: pointer;
@@ -90,6 +100,7 @@ span{
     text-align: center;
     width: auto;
     height: auto;
+    font-weight: bold;
     
 
 }
@@ -111,68 +122,32 @@ span{
         margin-bottom: 1rem;
     
     }
-    .weather_subtitle{
-        font-size: 1.5rem;
-    }
-    
+
     .weather_section{
         
-        display: flex;
-       
         
-    }
+        width: 15em;
+        margin-left: 1em;
+        }
     
-    .weather_paramether{
-        /* espacio de las lineas  */
-        line-height: 1.5em;
-        font-size: 1rem;
-        
-    }
-    .weather_inf-title{
-        text-align: center;
-        font-size: 1.3em;
-        
-    }
-    .weather_list{
-        
-        margin-left:1em;
-        margin-top: 1em;
-        line-height: 1.8em;
-        color:rgb(14, 1, 1);
-        
-        
-        
-    
-    }
-    span{
-        font-weight: 600;
-        color: var(--principal)
-    }  
-    .weather_c_f{
-        font-size: 0.8em;
-        font-weight: 600;
-        margin: 1em 1em;
-    }
-    
-    .weather_temp{
-        text-align: center;
-    }
-    
-    .btn{
-        padding: 0.5rem 1rem;
-        margin-top: 1rem;
-        border-radius: 0.5em;
-        
-        cursor: pointer;
-        border: 0.1em solid currentColor;
-        transition: transform 200ms ease,filter 100ms ease;
-        background-color: rgb(235, 233, 233,0.1);
-        
-    
-    }
-    .btn:hover{
-        transform: scale(1.1);
-        filter: brightness(1.1);
-    }
+        .weather_img{
+            width: 35%;
+        }
 
+        .repositorio{
+            margin-top: 1em;
+            font-size: 1rem;
+            text-align: center;
+            width: auto;
+            height: auto;
+            
+        
+        }
+        .weather_c_f{
+            font-size: 0.8em;
+            
+        }
+
+    
+    
 }
