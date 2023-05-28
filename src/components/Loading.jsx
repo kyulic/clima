@@ -2,7 +2,14 @@
 
 const Loading = () => {
   return (
-    <h1>Loading...</h1>
+    <article className="loading_init">
+      <h1 className="container">Loading...</h1>
+      <h2 className="loading"></h2>
+
+
+
+
+    </article>
   )
 }
 
